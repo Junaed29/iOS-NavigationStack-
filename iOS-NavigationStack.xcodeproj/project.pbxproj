@@ -11,6 +11,10 @@
 		E413BB4329DBF1DC00BC7908 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E413BB4229DBF1DC00BC7908 /* ContentView.swift */; };
 		E413BB4529DBF1DE00BC7908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E413BB4429DBF1DE00BC7908 /* Assets.xcassets */; };
 		E413BB4829DBF1DE00BC7908 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E413BB4729DBF1DE00BC7908 /* Preview Assets.xcassets */; };
+		E4E6811B29DD310A006E2718 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E6811A29DD310A006E2718 /* Models.swift */; };
+		E4E6811D29DD31FB006E2718 /* PlatformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E6811C29DD31FB006E2718 /* PlatformView.swift */; };
+		E4E6811F29DD325C006E2718 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E6811E29DD325C006E2718 /* GameView.swift */; };
+		E4E6812129DD3316006E2718 /* EnvironmentClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E6812029DD3316006E2718 /* EnvironmentClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		E413BB4229DBF1DC00BC7908 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E413BB4429DBF1DE00BC7908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E413BB4729DBF1DE00BC7908 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4E6811A29DD310A006E2718 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		E4E6811C29DD31FB006E2718 /* PlatformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformView.swift; sourceTree = "<group>"; };
+		E4E6811E29DD325C006E2718 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		E4E6812029DD3316006E2718 /* EnvironmentClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				E413BB4029DBF1DC00BC7908 /* iOS_NavigationStackApp.swift */,
 				E413BB4229DBF1DC00BC7908 /* ContentView.swift */,
+				E4E6811E29DD325C006E2718 /* GameView.swift */,
+				E4E6811C29DD31FB006E2718 /* PlatformView.swift */,
 				E413BB4429DBF1DE00BC7908 /* Assets.xcassets */,
 				E413BB4629DBF1DE00BC7908 /* Preview Content */,
+				E4E6811A29DD310A006E2718 /* Models.swift */,
+				E4E6812029DD3316006E2718 /* EnvironmentClass.swift */,
 			);
 			path = "iOS-NavigationStack";
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4E6811B29DD310A006E2718 /* Models.swift in Sources */,
+				E4E6811D29DD31FB006E2718 /* PlatformView.swift in Sources */,
+				E4E6812129DD3316006E2718 /* EnvironmentClass.swift in Sources */,
 				E413BB4329DBF1DC00BC7908 /* ContentView.swift in Sources */,
 				E413BB4129DBF1DC00BC7908 /* iOS_NavigationStackApp.swift in Sources */,
+				E4E6811F29DD325C006E2718 /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
